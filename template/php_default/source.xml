@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<gen>
+    <sources>
+        <source tpl="mvc_dao.php" 					 			path="/module/${package}/dao/${table_func_name}_dao.php"/>
+        <source tpl="mvc_service.php"		     				path="/module/${package}/service/${table_func_name}_service.php"/>
+        <source tpl="views_list.php" 							path="/views/${package}/${table_func_name}/list.html"/>
+        <source tpl="views_insert.php" 							path="/views/${package}/${table_func_name}/insert.html"/>
+        <source tpl="views_insert_submit.php" 					path="/views/${package}/${table_func_name}/insert_submit.php"/>
+    </sources>
+</gen>
